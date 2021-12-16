@@ -39,12 +39,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 160px;
     padding-bottom: 200px;
+    height: 800px;
 
-    background-image: url(./images/Frame\ \(9\).png);
+    background-image: url(./images/Frame\ \(10\).png), url(./images/Frame\ \(9\).png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 60% , 100%;
+    background-position-x: center;
+    background-position-y: 130%, top;
 }
 
 .main-title{
@@ -70,10 +72,9 @@
     color: darkorchid;
     font-style: bold;
 }
-
+/*
 .main-img{
     width: 700px;
     height: 400px;
-    position: absolute;
-    top: 55%;
-}
+    position: relative; 
+}*/
